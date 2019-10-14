@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="favicon" href="images/favicon.ico">
+</head>
+<script src="pixi/pixi.min.js"></script>
+
+<body>
+	
+	<script type="text/javascript">
+		let type = "WebGL"
+		if (!PIXI.utils.isWebGLSupported()) {
+			type = "canvas"
+		}
+		PIXI.utils.sayHello(type)
+
+	</script>
+</body>
+
+</html>
