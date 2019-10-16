@@ -27,7 +27,7 @@ const loader = PIXI.Loader.shared;
 const sprites = {};
 let moving = false;
 loader
-	.add('unicorn', '../images/unicorn-sprite.png');
+	.add('unicorn', 'images/unicorn-sprite.png');
 loader.load((loader, resources) => {
 	//setup function when the assets are loaded
 	app.stage.interactive = true;
